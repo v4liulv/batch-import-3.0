@@ -1,0 +1,9 @@
+2017-08-29 11:09:10.173+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Starting BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\target\index-reuse.db])
+2017-08-29 11:09:14.724+0000 INFO  [o.n.m.MetricsExtension] Initiating metrics...
+2017-08-29 11:09:14.725+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2017-08-29 11:09:14.786+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Rebuilding lucene scan store, this may take a while
+2017-08-29 11:09:14.786+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Lucene scan store rebuilt (roughly 0 nodes)
+2017-08-29 11:09:15.906+0000 WARN  [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2017-08-29 11:09:16.047+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1 to [E:\workspace\batch-import-3.0\target\index-reuse.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\target\index-reuse.db\neostore.counts.db.a].
+2017-08-29 11:09:16.077+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1 to [E:\workspace\batch-import-3.0\target\index-reuse.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\target\index-reuse.db\neostore.counts.db.a].
+2017-08-29 11:09:17.627+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Clean shutdown on BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\target\index-reuse.db])

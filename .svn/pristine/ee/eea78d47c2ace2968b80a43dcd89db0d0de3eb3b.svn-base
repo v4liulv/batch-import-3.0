@@ -1,0 +1,25 @@
+package org.neo4j;
+
+import org.neo4j.index.lucene.unsafe.batchinsert.LuceneBatchInserterIndexProvider;
+import org.neo4j.unsafe.batchinsert.BatchInserter;
+import org.neo4j.unsafe.batchinsert.BatchInserterIndexProvider;
+import org.neo4j.unsafe.batchinsert.BatchInserters;
+
+import java.io.File;
+import java.io.IOException;
+
+/**
+ * Created by Administrator on 2017/8/31.
+ *
+ *
+ */
+public class BatchInserterDemo {
+
+    public void batchInserter() throws IOException {
+        File file = new File("E:\\workspace\\batch-import-3.0\\batch_import_tool\\test.db");
+        BatchInserter inserter = BatchInserters.inserter( file);
+
+        BatchInserterIndexProvider indexProvider =
+                new LuceneBatchInserterIndexProvider( inserter );
+    }
+}

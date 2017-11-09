@@ -1,0 +1,39 @@
+2017-08-30 02:01:51.693+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Starting BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:02:00.036+0000 INFO  [o.n.m.MetricsExtension] Initiating metrics...
+2017-08-30 02:02:00.048+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2017-08-30 02:02:00.284+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Rebuilding lucene scan store, this may take a while
+2017-08-30 02:02:00.291+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Lucene scan store rebuilt (roughly 0 nodes)
+2017-08-30 02:02:04.627+0000 WARN  [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2017-08-30 02:02:04.875+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a].
+2017-08-30 02:02:04.920+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a].
+2017-08-30 02:02:08.304+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Clean shutdown on BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:04:18.544+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2017-08-30 02:04:18.547+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Starting BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:04:19.347+0000 INFO  [o.n.m.MetricsExtension] Initiating metrics...
+2017-08-30 02:04:21.693+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b].
+2017-08-30 02:04:21.768+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b].
+2017-08-30 02:04:24.663+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Clean shutdown on BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:13:59.073+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2017-08-30 02:13:59.076+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Starting BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:13:59.922+0000 INFO  [o.n.m.MetricsExtension] Initiating metrics...
+2017-08-30 02:14:03.085+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a].
+2017-08-30 02:14:03.164+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a].
+2017-08-30 02:14:05.723+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Clean shutdown on BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:15:53.851+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2017-08-30 02:15:53.854+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Starting BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:15:54.581+0000 INFO  [o.n.m.MetricsExtension] Initiating metrics...
+2017-08-30 02:15:57.762+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 2 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a].
+2017-08-30 02:15:57.779+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 2 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a].
+2017-08-30 02:15:59.367+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Clean shutdown on BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:19:15.015+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2017-08-30 02:19:15.019+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Starting BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:19:16.242+0000 INFO  [o.n.m.MetricsExtension] Initiating metrics...
+2017-08-30 02:19:18.084+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 2 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b].
+2017-08-30 02:19:18.107+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 2 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b].
+2017-08-30 02:19:20.363+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Clean shutdown on BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:19:42.123+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2017-08-30 02:19:42.126+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Starting BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])
+2017-08-30 02:19:43.242+0000 INFO  [o.n.m.MetricsExtension] Initiating metrics...
+2017-08-30 02:19:45.246+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 2 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a].
+2017-08-30 02:19:45.270+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 2 to [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.b], from [E:\workspace\batch-import-3.0\test.db\neostore.counts.db.a].
+2017-08-30 02:19:48.089+0000 INFO  [o.n.u.b.i.BatchInserterImpl] Thread[main,5,main] Clean shutdown on BatchInserter(EmbeddedBatchInserter[E:\workspace\batch-import-3.0\test.db])

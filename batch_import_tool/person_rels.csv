@@ -1,0 +1,6 @@
+sfzh:string:sfzh	sfzh:string:sfzh	action:string	createTime:string	updateTime:string	counter:int
+001	002	同火车	1998-07-10	1998-07-10	1
+001	003	同火车	2007-09-15	1998-07-10	2
+002	004	同航班	2008-05-03	2008-05-03	3
+003	002	同住	2008-05-03	2008-05-03	5
+004	003	同住	2007-09-15	2008-05-03	7
