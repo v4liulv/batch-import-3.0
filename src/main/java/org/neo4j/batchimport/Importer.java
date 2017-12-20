@@ -21,8 +21,10 @@ import java.util.*;
 import java.util.zip.GZIPInputStream;
 
 import static org.neo4j.batchimport.Utils.join;
-import static org.neo4j.index.impl.lucene.legacy.LuceneIndexImplementation.EXACT_CONFIG;
-import static org.neo4j.index.impl.lucene.legacy.LuceneIndexImplementation.FULLTEXT_CONFIG;
+import static org.neo4j.index.impl.lucene.explicit.LuceneIndexImplementation.EXACT_CONFIG;
+import static org.neo4j.index.impl.lucene.explicit.LuceneIndexImplementation.FULLTEXT_CONFIG;
+/*import static org.neo4j.index.impl.lucene.legacy.LuceneIndexImplementation.EXACT_CONFIG;
+import static org.neo4j.index.impl.lucene.legacy.LuceneIndexImplementation.FULLTEXT_CONFIG;*/
 
 public class Importer {
     private static final Map<String, String> SPATIAL_CONFIG = Collections.singletonMap(IndexManager.PROVIDER,"spatial");
