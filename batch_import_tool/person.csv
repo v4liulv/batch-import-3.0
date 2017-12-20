@@ -1,5 +1,0 @@
-1:label	id:string	sfzh:string:sfzh	xm:string:xm	age	works_on
-Persion	1	001	Michael	37	neo4j
-Persion	2	002	Selina	14	hive
-Persion	3	003	Rana	6	spark
-Persion	4	004	Selma	4	java
